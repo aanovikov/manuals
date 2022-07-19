@@ -235,6 +235,12 @@ forta account address
 forta status
 ```
 
+Посмотреть сколько ботов использует ноду
+
+```bash
+docker ps | grep docker-entrypoint | wc -l
+```
+
 Проверить логи
 
 ```bash

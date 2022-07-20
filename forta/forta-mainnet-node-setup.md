@@ -169,7 +169,7 @@ forta register --owner-address $FORTA_OWNER_ADDRESS
 ```bash
 systemctl daemon-reload
 systemctl enable forta.service
-systemctl start forta
+systemctl start forta.service
 ```
 
 # Делаем стейк на адрес сканера
